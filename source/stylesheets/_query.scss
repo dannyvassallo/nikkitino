@@ -58,12 +58,100 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+    h1, h2{
+        text-shadow: 0px 2px 5px #000;
+    }
+    h1{
+        font-size: 20.02pt;
+    }
+    h2{
+        font-size: 12.69pt;
+    }
+    .cta{
+        margin-top: -7%;
+    }
+    .jem{
+        margin-top: -11%;
+    }    
+    .grand{
+        margin-top: -40%;
+        h1{
+            margin-bottom: 3% !important;
+        }
+    }
+    .gp-list{
+        max-width: 400px;
+        margin-bottom: 3% !important; 
+    }
+    .daily-prizes{
+        margin-bottom: 3% !important;
+    }
+    .runner-up h2{
+        max-width: 350px;
+        margin-bottom: 3% !important;        
+    }
+    #ss-form{
+        max-width: 400px;
+    }    
+    .ss-q-title{
+     font-size: 12pt !important;   
+    }
+    .disclaimer{
+        margin-bottom: 3% !important;
+    }
+    .disneysubmit{
+        width: 150px;
+        height: 63px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    h1, h2{
+        text-shadow: 0px 2px 5px #000;
+    }
+    h1{
+        font-size: 32.02pt;
+    }
+    h2{
+        font-size: 20.69pt;
+    }
+    .cta{
+        margin-top: -7%;
+    }
+    .jem{
+        margin-top: -11%;
+    }    
+    .grand{
+        margin-top: -40%;
+        h1{
+            margin-bottom: 3% !important;
+        }
+    }
+    .gp-list{
+        max-width: 600px;
+        margin-bottom: 3% !important; 
+    }
+    .daily-prizes{
+        margin-bottom: 3% !important;
+    }
+    .runner-up h2{
+        max-width: 550px;
+        margin-bottom: 3% !important;        
+    }
+    #ss-form{
+        max-width: 600px;
+    }    
+    .ss-q-title{
+     font-size: 20pt !important;   
+    }
+    .disclaimer{
+        margin-bottom: 3% !important;
+    }
+    .disneysubmit{
+        width: 250px;
+        height: 104px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -73,12 +161,47 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+    h1, h2{
+        text-shadow: 0px 2px 5px #000;
+    }    
     h1{
         font-size: 61.02pt;
     }
     h2{
         font-size: 37.69pt;
     }
+    .cta{
+        margin-top: -7%;
+    }
+    .jem{
+        margin-top: -11%;
+    }    
+    .grand{
+        margin-top: -40%;
+        h1{
+            margin-bottom: 3% !important;
+        }
+    }
+    .gp-list{
+        max-width: 100%;
+        margin-bottom: 3% !important; 
+    }
+    .daily-prizes{
+        margin-bottom: 3% !important;
+    }
+    .runner-up h2{
+        max-width: 100%;
+        margin-bottom: 3% !important;        
+    }
+    #ss-form{
+        max-width: 100%;
+    }    
+    .ss-q-title{
+     font-size: 37pt !important;   
+    }
+    .disclaimer{
+        margin-bottom: 3% !important;
+    }    
     .disneysubmit{
         width: 312px;
         height: 130px;
