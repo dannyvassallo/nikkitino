@@ -14,7 +14,8 @@
 
   <body class="<%= page_classes %>">
     <%= yield %>
-
+    <!-- Override RD apps BG color -->
+    <div id="background"></div>
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
   </body>
