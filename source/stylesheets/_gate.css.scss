@@ -33,4 +33,14 @@
       -webkit-min-logical-width: 80%;
     }
   }
+  .btn{
+    text-transform: uppercase !important;
+    font-family: 'Gotham-Book';
+    background-color: $pink;
+    border-color: $pink;
+    &:hover,&:active,&:focus{
+      background-color: $pink;
+      border-color: $pink;   
+    }
+  }
 }

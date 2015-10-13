@@ -12,7 +12,7 @@ function validateAge() {
         return false
     }
     else{
-        $('#age-gate').fadeOut();        
+        $('.gate').fadeOut();        
         return false
     }
 }
