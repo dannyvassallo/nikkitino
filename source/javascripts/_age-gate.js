@@ -12,7 +12,8 @@ function validateAge() {
         return false
     }
     else{
-        $('.gate').fadeOut();        
+        $('.gate').fadeOut();
+        $("html,body").animate({ scrollTop: 0 }, "fast");        
         return false
     }
 }
