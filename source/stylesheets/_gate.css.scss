@@ -10,10 +10,13 @@
   text-align: center;
   height: 100%;
   min-height: 400px;
-  background-image: url('https://s3.amazonaws.com/myfangate.com/jem/repeating-star.jpg');
-  background-repeat: repeat;
+  background: #42b7d1; /* Old browsers */
+  background: -moz-linear-gradient(top,  #42b7d1 0%, #a7dce3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #42b7d1 0%,#a7dce3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #42b7d1 0%,#a7dce3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42b7d1', endColorstr='#a7dce3',GradientType=0 ); /* IE6-9 */ 
   a{
-    color: $pink;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
   }
@@ -33,14 +36,19 @@
       -webkit-min-logical-width: 80%;
     }
   }
-  .btn{
-    text-transform: uppercase !important;
-    font-family: 'Gotham-Book';
-    background-color: $pink;
-    border-color: $pink;
-    &:hover,&:active,&:focus{
-      background-color: $pink;
-      border-color: $pink;   
-    }
+}
+
+.btn{
+  text-transform: uppercase !important;
+  font-family: 'Gotham-Book';
+  background-color: #ed1c24 !important;
+  border-color: #ed1c24 !important;
+  &:hover,&:active,&:focus{
+    background-color: #ed1c24;
+    border-color: #ed1c24;   
   }
+}
+
+.again{
+  margin-top: -80px;
 }
