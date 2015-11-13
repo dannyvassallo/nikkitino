@@ -1,14 +1,14 @@
-$contest-text-color: white;
+$contest-text-color: #ed1c24;
 
 .form-control {
   border-radius: 20px;
   // -moz-border-radius: 20px;
   // -webkit-border-radius: 20px;
   // -webkit-appearance: none;
-  box-shadow: 0 0 20px $pink;
+  // box-shadow: 0 0 20px $pink;
   padding: 3px 0px 3px 20px;
   margin: 5px 1px 3px 0px;
-  border: 1px solid $pink;
+  // border: 1px solid $pink;
 }
 
 #ss-form{
@@ -20,7 +20,7 @@ text-align: left;
 margin: 0 auto;
   .ss-q-title{
     font-size: 20px;
-    font-family: 'Gotham-Book';
+    font-family: 'cubanoregular';
     text-transform: uppercase;
     color: $contest-text-color;
     font-weight: normal;
@@ -57,7 +57,7 @@ margin: 0 auto;
 .disneysubmit{
   margin: 0 auto;
   border: none;
-  background-image: url(https://s3.amazonaws.com/myfangate.com/jem/enterbtn.png);
+  background-image: url('https://s3.amazonaws.com/myfangate.com/nikkitino/enterbtn.png');
   margin: 20px 0 20px 0;
   background-color: transparent;
   background-size: cover;
@@ -91,8 +91,12 @@ margin: 0 auto;
 }
 
 .thank-you{
-    color: $pink;
-    font-family: 'Gotham-Medium';
-    margin-top: 5% !important;
-    margin-bottom: 5% !important;
+  color: white;
+  font-family: 'cubanoregular';
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+
+.thanks{
+  margin-bottom: 35px;
 }
