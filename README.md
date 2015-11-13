@@ -1,4 +1,4 @@
-#Jem & The Holograms
+#Nikki Tino
 
 This includes:
 
@@ -13,16 +13,16 @@ This includes:
 ------------------------
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
-git clone https://github.com/dannyvassallo/jemholograms.git
-cd jemholograms
+git clone https://github.com/dannyvassallo/nikkitino.git
+cd nikkitino
 ```
 
-From the "jemholograms" directory, install the gems by running the following:
+From the "nikkitino" directory, install the gems by running the following:
 ```shell
 bundle install
 ```
 
-To fire up the server while in the "jemholograms" directory use this command:
+To fire up the server while in the "nikkitino" directory use this command:
 ```shell
 middleman s
 ```
@@ -38,7 +38,7 @@ If you find yourself curious as to what directory you are in use the following i
 ```shell
 pwd
 ```
-It should turn up "jemholograms"
+It should turn up "nikkitino"
 
 ### Deploying
 
